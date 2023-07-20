@@ -1,0 +1,39 @@
+:root{
+    --gap:1rem;
+    --box-shadow:    0 2px 4px rgba(0, 0, 0, 0.1); /* Apply the box shadow */
+
+}
+*,
+::before,
+::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+.flex {
+    display: flex;
+}
+.grid {
+    display: grid;
+}
+.fs-1 {
+    font-size: 1.9ch;
+}
+.fs-2 {
+    font-size: 1.5ch;
+}
+.fs-3 {
+    font-size: 1.2ch;
+}
