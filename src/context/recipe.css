@@ -1,0 +1,28 @@
+.recipe-card {
+    flex-direction: column ;
+    gap: var(--gap);
+    width: 20rem;
+    padding: 1rem;
+    color: #fff;
+    background-color: #000;
+    box-shadow: var(--box-shadow);
+    border-radius: .3rem;
+}
+
+.pizza-info {
+    justify-content: space-between;
+}
+.ingredients h4 {
+    color: red;
+}
+.add-btn {
+    height: 2rem;
+    background-color: red;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+  transition: all 0.2s ease;
+}
+.add-btn:hover {
+    transform: scale(1.1); 
+}
