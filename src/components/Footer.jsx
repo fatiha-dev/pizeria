@@ -16,7 +16,7 @@ export function Footer() {
             </div>
             <div className="section flex">    
                 <span>
-                    <Pizza  size={32}/>
+                    <Pizza  size={32} />
                 </span>
                 <p className='txt'>
                     Lorem ipsum dolor sit amet c

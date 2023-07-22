@@ -1,20 +1,20 @@
 :root {
-    --sauce: rgb(218, 11, 11);
     --gap2: 2rem;
 }
 
 .navbar{
     align-items: center;
     justify-content: space-between;
-    padding-block: 1rem;
+    padding-block: .5rem;
     padding-inline: 3rem;
+    background-color: #000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Apply the box shadow */
 }
 
 .logo {
     align-items: center;
     gap: .5rem;
-    color: var(--sauce);
+    color: red;
 } 
 .logo img {
     width: 5rem;
@@ -25,5 +25,5 @@
     gap: var(--gap2);
 }
 .links  p {
-    color: rgb(14, 13, 13);
+    color: #fff;
 }

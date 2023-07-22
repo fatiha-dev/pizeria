@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export const Navbar = () => {
     
     return(
-        <navBar className="navbar flex">
+        <nav className="navbar flex">
             <div className="logo flex">
                 <img src={logo} />
                 <h1>
@@ -20,15 +20,15 @@ export const Navbar = () => {
                 <Link to="/recipes">
                     <p>Recipes</p>
                 </Link>
-                <Link to="/order">
+                <Link to="/orders">
                     <p>Order</p>
                 </Link>
-                <Link to="/aboutus">
+                <Link to="/about">
                     <p>About us</p>
                 </Link>
                 
             </div>
             
-        </navBar>
+        </nav>
     )
 }
